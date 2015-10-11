@@ -1,4 +1,4 @@
-package com.example.messagetest;
+package com.message.framework.ui;
 
 import java.util.ArrayList;
 import java.util.HashMap;
@@ -46,6 +46,7 @@ import com.easemob.chat.EMChatManager;
 import com.easemob.chat.EMConversation;
 import com.easemob.chat.EMMessage;
 import com.easemob.chat.TextMessageBody;
+import com.example.messagetest.R;
 
 
 

@@ -1,4 +1,4 @@
-package com.example.messagetest;
+package com.message.framework.ui;
 
 import java.io.IOException;
 
@@ -35,6 +35,7 @@ import com.easemob.chat.EMMessage;
 import com.easemob.chat.EMMessage.ChatType;
 import com.easemob.chat.TextMessageBody;
 import com.easemob.exceptions.EaseMobException;
+import com.example.messagetest.R;
 
 public class MainActivity extends Activity {
 

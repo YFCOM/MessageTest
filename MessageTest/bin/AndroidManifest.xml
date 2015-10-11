@@ -25,13 +25,13 @@
     <uses-permission android:name="android.permission.READ_PHONE_STATE" />
 
     <application
-        android:name="com.example.messagetest.MyApplication" 
+        android:name="com.message.framework.application.MyApplication" 
         android:allowBackup="true"
         android:icon="@drawable/ic_launcher"
         android:label="@string/app_name"
         android:theme="@style/AppTheme" >
         <activity
-            android:name="com.example.messagetest.MainActivity"
+            android:name="com.message.framework.ui.MainActivity"
             android:label="@string/app_name" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -41,7 +41,7 @@
         </activity>
         
         <activity
-            android:name="com.example.messagetest.ChatActivity"
+            android:name="com.message.framework.ui.ChatActivity"
             android:label="@string/app_name" >
            
         </activity>
